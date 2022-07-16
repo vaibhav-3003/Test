@@ -1,0 +1,163 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Oh hi, Good to see you",
+          "Hi,it's really good to hear from you I hope you and your loved ones are safe and healthy",
+          "Hi,A lot is going on in the world today,I hope you're taking care of yourself",
+          "Hi there, what can I do for you?",
+          "Hi there! So good to talk to you"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "who are u?", "Tell me your name?"],
+        "responses": [
+          "My name is 'Jarvis'. I just wish that everyone had a nickname as cool as mine\n\n Would you like me to give you a super cool nickname?",
+          "My name is 'The Jarvis.' I like to think of it as a cool nickname \n\n You look like you need a nickname,too.Should I give you one?",
+          "you can call me jarvis,if you want to"
+        ]
+      },
+      {
+        "tag": "Yes nicknames",
+        "patterns": ["Yes", "Yes,please", "ok,give me a nickname"],
+        "responses": [
+          "Fantastic! I'll only use it this one time.I hope you remember it \n\nYou like a fancy nickname or a short nickname?",
+          "Excellent! I'll just use it this one time.Try to remember it \n\nAnyway,would you like a short one or a fancy one?"
+        ]
+      },
+      {
+        "tag": "No nicknames",
+        "patterns": ["No", "ofcourse not", "no way","not possible","not happening"],
+        "responses": [
+          "That's too bad.I've been told I give pretty good nicknames."
+        ]
+      },
+      {
+        "tag": "fancy",
+        "patterns": ["Fancy", "Fancy,ofcourse", "ok,give me a fancy nickname","Fancy one"],
+        "responses": [
+          "Fancy it is! \n\nInspector \n\nCutting \n\nCassette \n\nYup,that suits you perfectly,I think",
+          "ok. Here's a nice long one... \n\nAstronaut \n\nDriver \n\nSamosa \n\nMaybe my new name should be 'The Nickname Assistant ' because that was a sweet handle i just gave it to you"
+        ]
+      },
+      {
+        "tag": "short",
+        "patterns": ["Short", "short,ofcourse", "ok,give me a short nickname","short one"],
+        "responses": [
+          "Short and sweet.Let's see,how about I just call you... \n\nTickety-boo \n\nI don't know why I used that name;it just came to me",
+          "Got it.Something short that might look good as a tattoo.How about... \n\nGunny \n\nI'm pretty proud of that one.You definitely like it"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure","Shukriya to you","I am honoured to serve","just doing my job"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "What do you accept in payment?",
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "things you do",
+        "patterns": [
+          "What can you do for me?",
+          "what things you can do?",
+          "what are the things you can do?"
+        ],
+        "responses": [
+          "Please ask me a question,i will try to answer that",
+          "What would you like me to do?"
+        ]
+      },
+      {
+        "tag": "Well being",
+        "patterns": [
+          "How are you?",
+          "Are you ok?"
+        ],
+        "responses": [
+          "I am fine.You're very kind to ask,especially in these tempestuous times",
+          "Thanks for asking,I'm doing ok.A lot is going on in the world today.I hope you're taking care of yourself",
+          "Life is the best!",
+          "I'm perfectly okay and happy to be here"
+        ]
+      },
+       {
+        "tag": "life",
+        "patterns": [
+          "How is your life?",
+          "How is your life going?"
+        ],
+        "responses": [
+          "Life is the best!",
+          "No complaints!",
+          "I am having a great time",
+          "Really good"
+        ]
+      }
+    ]
+  }
